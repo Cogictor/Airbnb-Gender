@@ -1,2 +1,8 @@
-# Airbnb-Gender
-Applied Projects: Discrimination on Airbnb
+# Discrimination on Airbnb
+MODS207 - Applied Projects
+
+In today's interconnected world, discrimination on web platforms has emerged as a pressing concern, with Airbnb being a particularly noteworthy example. The harmful impact of discrimination on marginalized communities has drawn significant attention, highlighting the power of the web to shape social interactions and economic opportunities. This demands a closer examination of the role played by web platforms in perpetuating discrimination. To address this issue, our project aims to tackle discrimination within the Airbnb platform.
+
+We analyze a CSV file containing guest profiles, including names and pictures, employing various machine learning algorithms to estimate the gender and race of each guest based solely on their names, pictures, or a combination of both. Our goal is to understand how accurately we can predict these attributes by incorporating or excluding picture information while retaining the use of names.
+
+The project workflow encompass several tasks, starting with data preparation and cleaning. We utilize face_recognition to extract features from the pictures, exploring the application of Python libraries such as Genderize.io for gender estimation based on first names and OpenCV for gender estimation from pictures. Additionally, we leverage Ethnicolor, NamePrism, DeepFace Race estimation, and other relevant prediction models to estimate race. By thoroughly examining different approaches, we aim to improve the accuracy of our predictions and gain insights into the potential impact of different data sources on discrimination within the Airbnb platform.
